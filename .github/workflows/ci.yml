@@ -5,7 +5,8 @@ on:
   # but only for the master branch
   push:
     branches:
-      - master
+      - with-remote-control
+      - v2025.10.0-with-remote-control
   pull_request:
     branches:
       - master

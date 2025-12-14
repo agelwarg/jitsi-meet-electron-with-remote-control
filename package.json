@@ -11,7 +11,7 @@
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
     "build": "webpack --config ./webpack.main.js --mode production && webpack --config ./webpack.renderer.js --mode production",
-    "dist": "npm run build && electron-builder",
+    "dist": "npm run build && electron-builder -c.mac.notarize=false",
     "postinstall": "patch-package",
     "watch": "webpack --config ./webpack.renderer.js --mode development --watch --watch-options-poll=1000"
   },
