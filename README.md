@@ -1,6 +1,8 @@
 # Jitsi Meet Electron
 
 Desktop application for [Jitsi Meet] built with [Electron].
+This is a forked build with activated remote control feature and disabled auto update (due to the fact that application with remote control would be overridden).
+For binaries check the release artifacts.
 
 ![](screenshot.png)
 
@@ -10,7 +12,7 @@ Desktop application for [Jitsi Meet] built with [Electron].
 - Works with any Jitsi Meet deployment
 - Built-in auto-updates
 - Screen sharing
-- ~Remote control~ (currently [disabled](https://github.com/jitsi/jitsi-meet-electron/issues/483) due to [security issues](https://github.com/jitsi/security-advisories/blob/master/advisories/JSA-2020-0001.md))
+- Remote control (Note following issue. Just use with trustworthy server. Original repo has this feature [disabled](https://github.com/jitsi/jitsi-meet-electron/issues/483) due to [security issues](https://github.com/jitsi/security-advisories/blob/master/advisories/JSA-2020-0001.md))
 - Always-On-Top window
 - Support for deeplinks such as `jitsi-meet://myroom` (will open `myroom` on the configured Jitsi instance) or `jitsi-meet://jitsi.mycompany.com/myroom` (will open `myroom` on the Jitsi instance running on `jitsi.mycompany.com`)
 
